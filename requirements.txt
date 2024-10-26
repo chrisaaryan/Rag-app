@@ -1,0 +1,12 @@
+# Core libraries
+llama-index
+langchain
+faiss-cpu  # faiss for non-GPU environment, use faiss-gpu if using a GPU
+sentence-transformers
+transformers
+pypdf  # For reading PDFs
+torch  # PyTorch is needed for Hugging Face LLMs
+einops
+accelerate
+bitsandbytes  # Needed if you want to use the model in 8-bit mode
+python-dotenv
